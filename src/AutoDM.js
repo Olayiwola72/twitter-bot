@@ -41,8 +41,8 @@ const GenerateMessage = name => {
   ];
   const d = new Date();
   const dayName = days[d.getDay()];
-  return `Hi ${name} Thanks for .... \n Happy ${dayName} 😊😊 `; // your message
-  // My message   return `Hi ${name} Thanks for being a part of my social media network. I'am the @PicsrushE founder,A new Online Image Editor completely with web technologies,I'm also a reactjs developer and medium blogger.\n Happy to discuss anytime 😊  \n Happy ${dayName} 😊😊 `;
+  return `Hi ${name}, Thanks for being a part of my social media network. I would like to tell you about my blog: http://antiquefables.com, its a blog where 
+			I translate life issues and experiences to tales and stories that everyone can learn from. Do you have a blog too? let me know! always looking to learn new things`;
 };
 
 module.exports = AutoDM;
